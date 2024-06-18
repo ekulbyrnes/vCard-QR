@@ -13,9 +13,13 @@ The script takes 5 arguments:
 5. Output file name (SVG)
 
 ## Execute the script:
-`./vCard-qr.sh`
+```sh
+./vCard-qr.sh
+```
 
 ## Check the file works
-`open <filename>.svg`
+```sh
+open <filename>.svg
+```
 
 Scan the QR code with a smartphone to check the vCard loads.
