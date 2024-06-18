@@ -21,7 +21,7 @@ EMAIL:$email
 END:VCARD"
 
     # Generate QR code from the vCard content
-    echo "$vcard_content" | qrencode --type=SVG -o "$filename" -s 10 -l H
+    echo "$vcard_content" | qrencode --type=SVG -o "$filename" -s 10 -l L
 
     # Check if the file was created successfully
     if [[ -f "$filename" ]]; then
